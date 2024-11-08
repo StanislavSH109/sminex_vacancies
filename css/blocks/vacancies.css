@@ -1,0 +1,26 @@
+.vacancies-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vacancies-block__name {
+    margin: 0;
+}
+
+.vacancies-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #D6D2C4;
+    padding: 28px;
+}
+
+.vacancies-block--title {
+    border: none;
+}
+
+.vacancies-block__right-group {
+    display: flex;
+    flex-direction: column;
+}
