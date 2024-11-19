@@ -6,6 +6,7 @@
 
 .vacancies-block__name {
     margin: 0;
+    text-transform: uppercase;
 }
 
 .vacancies-block {
@@ -16,6 +17,15 @@
     padding: 28px;
 }
 
+.vacancies-block__wrapper {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.vacancies-block__right-group-slash {
+    margin: 0 5px 0 5px;
+}
+
 .vacancies-block--title {
     border: none;
 }
@@ -23,6 +33,8 @@
 .vacancies-block__right-group {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+
 }
 
 .vacancies-block__right-group-tel {
