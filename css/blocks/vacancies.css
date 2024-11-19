@@ -24,3 +24,16 @@
     display: flex;
     flex-direction: column;
 }
+
+.vacancies-block__right-group-tel {
+    color: black;
+}
+
+.vacancies-block__right-group-email {
+    color: black;
+}
+
+.vacancies-block__right-group-send-cv {
+    color: black;
+
+}
