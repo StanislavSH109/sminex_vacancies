@@ -49,3 +49,24 @@
     color: #1D252D;
 }
 
+.vacancies-cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vacancies-cv__title {
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 200;
+    color: #1D252D;
+    text-transform: uppercase;
+
+}
+
+.vacancies-cv__text {
+    text-align: right;
+    width: 280px;
+}
+
