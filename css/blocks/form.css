@@ -1,6 +1,11 @@
+.form {
+    margin-bottom: 120px;
+}
+
 .form-cv {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 40px;
 }
 
@@ -8,4 +13,44 @@
     width: 540px;
     height: 66px;
     border: 1px solid #D6D2C4;
+}
+
+.form-cv__field {
+    margin: 0;
+}
+
+.form-cv__group-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cv__personal-data {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #1D252D;
+    font-family: inherit;
+    margin: 0 0 20px 0;
+}
+
+.form-cv__personal-data-link {
+    border-bottom: 1px solid #1D252D;
+    color: #1D252D;
+}
+
+.form-cv__button-data {
+    border: none;
+    background-color: #D6D2C4;
+    border-radius: 40px;
+    width: 320px;
+    height: 56px;
+    color: #1D252D;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: inherit;
+    cursor: pointer;
 }
