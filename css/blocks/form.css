@@ -49,15 +49,26 @@
     content: "";
     position: absolute;
     left: -30px;
-    border: 1px solid D6D2C4;
+    border: 1px solid #D6D2C4;
+    width: 20px;
+    height: 20px;
+}
+
+.form-cv__personal-data-label::after {
+    content: "";
+    display: none;
+    position: absolute;
     width: 20px;
     height: 20px;
     display: none;
+    top: 0;
+    left: 0;
+    transform: translateX(-150%);
 }
 
 .form-cv__personal-data-checkbox:checked + .form-cv__personal-data-label::after {
     display: block;
-    background-color: #D6D2C4;
+    background: url(/images/sprite/done.svg) no-repeat center #D6D2C4;
 }
 
 
