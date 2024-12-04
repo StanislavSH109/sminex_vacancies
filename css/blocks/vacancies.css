@@ -1,11 +1,24 @@
 .vacancies-list {
     list-style: none;
-    margin: 0;
+    margin: 0 0 120px 0;
     padding: 0;
 }
 
-.vacancies-block__name {
+.vacancies-block__title {
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 72px;
     margin: 0;
+    color: rgba(29, 37, 45, 1);
+    text-transform: uppercase;
+}
+
+.vacancies-block__name {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgba(29, 37, 45, 1);
     text-transform: uppercase;
 }
 
@@ -22,7 +35,7 @@
     border-bottom: 1px solid #D6D2C4;
 }
 
-.vacancies-block:hover {
+.vacancies-list__item:hover {
     cursor: pointer;
     background-color: rgba(214, 210, 196, 0.2);
     transition: .2s ease-in;
