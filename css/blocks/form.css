@@ -9,10 +9,22 @@
     gap: 40px;
 }
 
+.custom-input {
+    position: relative;
+}
+
 .custom-input__field {
     width: 540px;
     height: 66px;
     border: 1px solid #D6D2C4;
+}
+
+.custom-input__label {
+    position: absolute;
+    padding: 2px;
+    background-color: #FFFFFF;
+    transform: translateY(-50%);
+    left: 20px;
 }
 
 .form-cv__field {
