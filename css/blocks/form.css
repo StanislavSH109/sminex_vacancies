@@ -4,8 +4,8 @@
 
 .form-cv {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
@@ -15,7 +15,7 @@
 
 .custom-input__field {
     width: 540px;
-    height: 66px;
+    height: 56px;
     border: 1px solid #D6D2C4;
 }
 
@@ -27,18 +27,19 @@
     left: 20px;
 }
 
-.form-cv__field {
-    margin: 0;
+.custom-input__checkbox {
+    display: flex;
+    flex-direction: column;
 }
 
-.form-cv__group-personal-data {
+.custom-input__checkbox-group {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.form-cv__personal-data-checkbox {
+.custom-input__checkbox-input{
     position: absolute;
     border: 0;
     overflow: hidden;
@@ -46,7 +47,7 @@
     clip-path: inset(100%);
 }
 
-.form-cv__personal-data-label {
+.custom-input__checkbox-label {
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
@@ -57,7 +58,7 @@
     position: relative;
 }
 
-.form-cv__personal-data-label::before {
+.custom-input__checkbox-label::before {
     content: "";
     position: absolute;
     left: -30px;
@@ -66,7 +67,7 @@
     height: 20px;
 }
 
-.form-cv__personal-data-label::after {
+.custom-input__checkbox-label::after {
     content: "";
     display: none;
     position: absolute;
@@ -78,18 +79,18 @@
     transform: translateX(-150%);
 }
 
-.form-cv__personal-data-checkbox:checked + .form-cv__personal-data-label::after {
+.custom-input__checkbox-input:checked + .custom-input__checkbox-label::after {
     display: block;
     background: url(/images/sprite/done.svg) no-repeat center #D6D2C4;
 }
 
 
-.form-cv__personal-data-link {
+.custom-input__checkbox-link {
     border-bottom: 1px solid #1D252D;
     color: #1D252D;
 }
 
-.form-cv__button-data {
+.custom-input__checkbox-button {
     border: none;
     background-color: #D6D2C4;
     border-radius: 40px;
