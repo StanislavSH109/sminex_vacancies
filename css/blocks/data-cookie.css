@@ -6,8 +6,8 @@
     padding: 26px;
     background-color: #1D252D;
     width: 360px;
-    position: absolute;
     right: 0;
+    position: sticky;
 }
 
 .data-cookie__close {
