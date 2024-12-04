@@ -40,12 +40,24 @@
 .vacancies-block__right-group-tel {
     color: #1D252D;
     transition: .2s ease-in;
+    position: relative;
 }
 
-.vacancies-block__right-group-tel:hover {
-    border-bottom: 1px solid #1D252D;
+.vacancies-block__right-group-tel::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    transition: width 0.2s ease;
+    height: 1px;
+    background-color: rgba(29, 37, 45, 1);
+    right: 0;
+    bottom: 0;
 }
 
+.vacancies-block__right-group-tel:hover::after {
+    width: 100%;
+    
+}
 
 .vacancies-block__right-group-email {
     color: #1D252D;
@@ -53,6 +65,10 @@
 
 .vacancies-block__right-group-send-cv {
     color: #1D252D;
+}
+
+.vacancies-block__right-group-send-cv:hover {
+    color: rgba(29, 37, 45, 0.5);
 }
 
 .vacancies-cv {
