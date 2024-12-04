@@ -6,8 +6,9 @@
     padding: 26px;
     background-color: #1D252D;
     width: 360px;
-    right: 0;
-    position: sticky;
+    bottom: 240px;
+    right: 15%;
+    position: fixed;
 }
 
 .data-cookie__close {
@@ -16,6 +17,7 @@
     right: 6px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .data-cookie__text {
@@ -43,4 +45,5 @@
     text-align: center;
     width: 100%;
     padding: 10px;
+    color: #1D252D;
 }
