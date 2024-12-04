@@ -19,21 +19,45 @@
     margin: 0;
 }
 
-.form-cv__personal-data {
+.form-cv__group-personal-data {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
+.form-cv__personal-data-checkbox {
+    position: absolute;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+}
 
-.form-cv__personal-data-text {
+.form-cv__personal-data-label {
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
     color: #1D252D;
     font-family: inherit;
-    margin: 0 0 20px 0;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.form-cv__personal-data-label::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    border: 1px solid D6D2C4;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
+
+.form-cv__personal-data-checkbox:checked + .form-cv__personal-data-label::after {
+    display: block;
+    background-color: #D6D2C4;
 }
 
 
