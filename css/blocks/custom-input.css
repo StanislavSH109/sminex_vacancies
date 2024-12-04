@@ -6,6 +6,19 @@
     width: 540px;
     height: 56px;
     border: 1px solid #D6D2C4;
+    cursor: pointer;
+}
+
+.custom-input__field:focus-visible {
+    outline: none;
+}
+
+.custom-input__field:hover {
+    outline: 1px solid rgba(29, 37, 45, 1);
+}
+
+.custom-input__field:focus {
+    outline: 1px solid rgba(29, 37, 45, 1)
 }
 
 .custom-input__label {
@@ -73,7 +86,6 @@
     background: url(/images/sprite/done.svg) no-repeat center #D6D2C4;
 }
 
-
 .custom-input__checkbox-link {
     border-bottom: 1px solid #1D252D;
     color: #1D252D;
@@ -92,6 +104,28 @@
     font-weight: 300;
     font-family: inherit;
     cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.custom-input__checkbox-button:focus {
+    outline: none;
+}
+
+.custom-input__checkbox-button:hover {
+    color: #FFFFFF;
+    background-color: rgba(29, 37, 45, 1);
+    transition: .2s ease-in-out;
+}
+
+.custom-input__checkbox-button:focus {
+    color: #FFFFFF;
+    background-color: rgba(14, 17, 20, 1);
+    transition: .2s ease-in-out;
+}
+
+.custom-input__checkbox-button:disabled {
+    color: rgba(214, 210, 196, 0.5);
+    background-color: rgba(214, 210, 196, 0.5);
 }
 
 .custom-input__icon {
