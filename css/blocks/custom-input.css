@@ -29,19 +29,19 @@
     left: 20px;
 }
 
-.custom-input__checkbox {
+.custom-checkbox {
     display: flex;
     flex-direction: column;
 }
 
-.custom-input__checkbox-group {
+.custom-checkbox__group {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.custom-input__checkbox-agree {
+.custom-checkbox__group-agree {
     position: absolute;
     border: 0;
     overflow: hidden;
@@ -49,11 +49,11 @@
     clip-path: inset(100%);
 }
 
-.custom-input__checkbox-agree:disabled {
+.custom-checkbox__group-agree:disabled {
     background-color: rgba(214, 210, 196, 0.5);
 }
 
-.custom-input__checkbox-label {
+.custom-checkbox__group-label {
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
@@ -64,7 +64,7 @@
     position: relative;
 }
 
-.custom-input__checkbox-label::before {
+.custom-checkbox__group-label::before {
     content: "";
     position: absolute;
     left: -30px;
@@ -74,7 +74,7 @@
     transition: .2s ease-in;
 }
 
-.custom-input__checkbox-label::after {
+.custom-checkbox__group-label::after {
     content: "";
     display: none;
     position: absolute;
@@ -86,26 +86,26 @@
     transform: translateX(-150%);
 }
 
-.custom-input__checkbox-label:hover::before {
+.custom-checkbox__group-label:hover::before {
     border: 1px solid black;
     transition: .2s ease-in;
 }
 
-.custom-input__checkbox-label:focus {
+.custom-checkbox__group-label:focus {
     border: 1px solid black;
 }
 
-.custom-input__checkbox-agree:checked + .custom-input__checkbox-label::after {
+.custom-checkbox__group-agree:checked + .custom-checkbox__group-label::after {
     display: block;
     background: url(/images/sprite/done.svg) no-repeat center #D6D2C4;
 }
 
-.custom-input__checkbox-link {
+.custom-checkbox__group-link {
     border-bottom: 1px solid #1D252D;
     color: #1D252D;
 }
 
-.custom-input__checkbox-button {
+.custom-checkbox__button {
     border: none;
     background-color: #D6D2C4;
     border-radius: 40px;
@@ -121,23 +121,23 @@
     transition: .2s ease-in-out;
 }
 
-.custom-input__checkbox-button:focus {
+.custom-checkbox__button:focus {
     outline: none;
 }
 
-.custom-input__checkbox-button:hover {
+.custom-checkbox__button:hover {
     color: #FFFFFF;
     background-color: rgba(29, 37, 45, 1);
     transition: .2s ease-in-out;
 }
 
-.custom-input__checkbox-button:focus {
+.custom-checkbox__button:focus {
     color: #FFFFFF;
     background-color: rgba(14, 17, 20, 1);
     transition: .2s ease-in-out;
 }
 
-.custom-input__checkbox-button:disabled {
+.custom-checkbox__button:disabled {
     color: rgba(214, 210, 196, 0.5);
     background-color: rgba(214, 210, 196, 0.5);
 }

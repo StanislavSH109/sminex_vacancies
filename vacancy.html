@@ -82,8 +82,7 @@
         <h2 class="vacancies-cv__title">Отправить резюме</h2>
         <p class="vacancies-cv__text">Мы свяжемся с вами, когда появится подходящая вакансия</p>
        </div>
-       <div class="form">
-        <form class="form-cv" action="" method="post">
+        <form class="form" action="#" method="post">
           <div class="custom-input">
             <label class="custom-input__label" for="name" >Имя*</label>
             <input class="custom-input__field" name="name" id="name" type="text" required>
@@ -114,17 +113,16 @@
               <use xlink:href="images/sprite.svg#cv"></use>
             </svg>
           </div>
-          <div class="custom-input__checkbox">
-            <div class="custom-input__checkbox-group">
-              <input class="custom-input__checkbox-agree" type="checkbox" id="agree" disabled>
-              <label class="custom-input__checkbox-label" for="agree">
-                <span>Даю согласие на обработку <a href="#" class="custom-input__checkbox-link">персональных данных</a></span>
+          <div class="custom-checkbox">
+            <div class="custom-checkbox__group">
+              <input class="custom-checkbox__group-agree" type="checkbox" id="agree">
+              <label class="custom-checkbox__group-label" for="agree">
+                <span>Даю согласие на обработку <a href="#" class="custom-checkbox__group-link">персональных данных</a></span>
               </label>
             </div>
-            <button class="custom-input__checkbox-button" type="submit">Отправить заявку</button>
+            <button class="custom-checkbox__button" type="submit">Отправить заявку</button>
           </div>
         </form>
-       </div>
        <div class="data-cookie data-cookie--active">
         <svg class="data-cookie__close">
           <use xlink:href="images/sprite.svg#cookie-close"></use>
