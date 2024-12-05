@@ -1,5 +1,5 @@
 .data-cookie {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -11,8 +11,8 @@
     position: fixed;
 }
 
-.data-cookie--active {
-    display: flex;
+.data-cookie--hidden {
+    display: none;
 }
 
 .data-cookie__close {

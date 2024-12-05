@@ -1,3 +1,16 @@
+.vacancies {
+    padding: 0 0 120px 0;
+}
+
+.vacancies-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #D6D2C4;
+    padding: 28px;
+    transition: .2s ease-in-out;
+}
+
 .vacancies-list {
     list-style: none;
     margin: 0 0 120px 0;
@@ -20,15 +33,7 @@
     line-height: 24px;
     color: rgba(29, 37, 45, 1);
     text-transform: uppercase;
-}
-
-.vacancies-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid #D6D2C4;
-    padding: 28px;
-    transition: .2s ease-in-out;
+    margin: 0;
 }
 
 .vacancies-block--last {
@@ -106,11 +111,12 @@
     font-weight: 200;
     color: #1D252D;
     text-transform: uppercase;
-
+    margin: 0;
 }
 
 .vacancies-cv__text {
     text-align: right;
     width: 280px;
+    margin: 0;
 }
 
