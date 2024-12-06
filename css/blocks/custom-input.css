@@ -110,7 +110,7 @@
     background-color: #D6D2C4;
     border-radius: 40px;
     width: 320px;
-    height: 56px;
+    padding: 18px;
     color: #1D252D;
     font-size: 16px;
     line-height: 20px;
@@ -150,4 +150,16 @@
     right: 10px;
     bottom: 0;
     transform: translateY(-50%);
+}
+
+.custom-input--error {
+    outline: 1px solid #E80E0A;
+}
+
+.custom-input__icon-email--error {
+    fill: #E80E0A;
+}
+
+.custom-input__label--error {
+    color: #E80E0A;
 }
