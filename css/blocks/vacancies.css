@@ -2,6 +2,17 @@
     padding: 0 0 120px 0;
 }
 
+.vacancies-block__title {
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 72px;
+    margin: 0;
+    color: rgba(29, 37, 45, 1);
+    text-transform: uppercase;
+}
+
+
 .vacancies-block {
     display: flex;
     justify-content: space-between;
@@ -15,16 +26,6 @@
     list-style: none;
     margin: 0 0 120px 0;
     padding: 0;
-}
-
-.vacancies-block__title {
-    font-family: "IBM Plex Sans", "Arial", sans-serif;
-    font-weight: 200;
-    font-size: 60px;
-    line-height: 72px;
-    margin: 0;
-    color: rgba(29, 37, 45, 1);
-    text-transform: uppercase;
 }
 
 .vacancies-block__name {

@@ -29,119 +29,6 @@
     left: 20px;
 }
 
-.custom-checkbox {
-    display: flex;
-    flex-direction: column;
-}
-
-.custom-checkbox__group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.custom-checkbox__group-agree {
-    position: absolute;
-    border: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    clip-path: inset(100%);
-}
-
-.custom-checkbox__group-agree:disabled {
-    background-color: rgba(214, 210, 196, 0.5);
-}
-
-.custom-checkbox__group-label {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 20px;
-    color: #1D252D;
-    font-family: inherit;
-    cursor: pointer;
-    user-select: none;
-    position: relative;
-}
-
-.custom-checkbox__group-label::before {
-    content: "";
-    position: absolute;
-    left: -30px;
-    border: 1px solid #D6D2C4;
-    width: 20px;
-    height: 20px;
-    transition: .2s ease-in;
-}
-
-.custom-checkbox__group-label::after {
-    content: "";
-    display: none;
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    display: none;
-    top: 0;
-    left: 0;
-    transform: translateX(-150%);
-}
-
-.custom-checkbox__group-label:hover::before {
-    border: 1px solid black;
-    transition: .2s ease-in;
-}
-
-.custom-checkbox__group-label:focus {
-    border: 1px solid black;
-}
-
-.custom-checkbox__group-agree:checked + .custom-checkbox__group-label::after {
-    display: block;
-    background: url(/images/sprite/done.svg) no-repeat center #D6D2C4;
-}
-
-.custom-checkbox__group-link {
-    border-bottom: 1px solid #1D252D;
-    color: #1D252D;
-}
-
-.custom-checkbox__button {
-    border: none;
-    background-color: #D6D2C4;
-    border-radius: 40px;
-    width: 320px;
-    padding: 18px;
-    color: #1D252D;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    font-weight: 300;
-    font-family: inherit;
-    cursor: pointer;
-    transition: .2s ease-in-out;
-}
-
-.custom-checkbox__button:focus {
-    outline: none;
-}
-
-.custom-checkbox__button:hover {
-    color: #FFFFFF;
-    background-color: rgba(29, 37, 45, 1);
-    transition: .2s ease-in-out;
-}
-
-.custom-checkbox__button:focus {
-    color: #FFFFFF;
-    background-color: rgba(14, 17, 20, 1);
-    transition: .2s ease-in-out;
-}
-
-.custom-checkbox__button:disabled {
-    color: rgba(214, 210, 196, 0.5);
-    background-color: rgba(214, 210, 196, 0.5);
-}
-
 .custom-input__icon {
     position: absolute;
     width: 26px;
@@ -158,6 +45,9 @@
     left: 0;
     bottom: 0;
     transform: translateY(100%);
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
 }
 
 .custom-input--error {
