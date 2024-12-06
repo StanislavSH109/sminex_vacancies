@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #D6D2C4;
+    border-bottom: 1px solid #D6D2C4;
     padding: 28px;
     transition: .2s ease-in-out;
 }
@@ -37,8 +37,8 @@
     margin: 0;
 }
 
-.vacancies-block--last {
-    border-bottom: 1px solid #D6D2C4;
+.vacancies-block__salary {
+    color: #1D252D;
 }
 
 .vacancies-list__item:hover {
