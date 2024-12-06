@@ -152,14 +152,18 @@
     transform: translateY(-50%);
 }
 
+.custom-input__invalid-field {
+    position: absolute;
+    color: #E80E0A;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
 .custom-input--error {
     outline: 1px solid #E80E0A;
 }
 
 .custom-input__icon-email--error {
     fill: #E80E0A;
-}
-
-.custom-input__label--error {
-    color: #E80E0A;
 }
