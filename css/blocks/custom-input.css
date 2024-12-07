@@ -37,9 +37,11 @@
     right: 10px;
     bottom: 0;
     transform: translateY(-50%);
+    fill: #D6D2C4;
 }
 
 .custom-input__invalid-field {
+    display: none;
     position: absolute;
     color: #E80E0A;
     left: 0;
@@ -50,10 +52,15 @@
     font-weight: 300;
 }
 
-.custom-input--error {
+.custom-input__field--error {
     outline: 1px solid #E80E0A;
 }
 
-.custom-input__icon-email--error {
+.custom-input__field--error + .custom-input__icon-email {
     fill: #E80E0A;
 }
+
+.custom-input__field--error ~ .custom-input__invalid-field {
+    display: block;
+}
+
